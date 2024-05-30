@@ -45,7 +45,7 @@ pip install selenium PyPDF2
 ## Uso
 
 1. **Configuração do Diretório de Download**: No script, ajuste a variável `destination_folder` para o caminho onde deseja salvar os PDFs baixados.
-   
+
    ```python
    destination_folder = r"C:\Users\seu_usuario\caminho\para\tccs"
    ```
@@ -57,7 +57,6 @@ pip install selenium PyPDF2
    ```
 
 3. **Resultado**: Após a execução, o arquivo de texto combinado será salvo no diretório `tccs_extraidos` em um arquivo .txt.
-
 
 ## Considerações Finais
 
