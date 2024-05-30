@@ -1,4 +1,4 @@
-# Automação de Extração de Textos de TCC de Turismo
+# Extração de Textos de TCC de Turismo usando o Selinium
 
 ## Descrição do Projeto
 
