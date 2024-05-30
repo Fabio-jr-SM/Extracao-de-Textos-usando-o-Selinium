@@ -28,10 +28,12 @@ pip install selenium PyPDF2
 
 ```plaintext
 .
-├── extracao_tcc_turismo.py    # Script principal para extração e processamento
+├── main.py                    # Script principal para extração e processamento
 ├── tccs/                      # Diretório onde os PDFs baixados são armazenados
 ├── tccs_extraidos/            # Diretório onde o arquivo de texto combinado é salvo
-└── README.md                  # Documentação do projeto
+├── README.md                  # Documentação do projeto
+├── chromedrive.exe            # ChromeDrive para o Selinium (Baixe de acordo com a versão do google Chrome)
+└── LICENSE                    
 ```
 
 ## Configuração do Ambiente
@@ -54,7 +56,7 @@ pip install selenium PyPDF2
    python extracao_tcc_turismo.py
    ```
 
-3. **Resultado**: Após a execução, o arquivo de texto combinado será salvo no diretório `tccs_extraidos`.
+3. **Resultado**: Após a execução, o arquivo de texto combinado será salvo no diretório `tccs_extraidos` em um arquivo .txt.
 
 
 ## Considerações Finais
