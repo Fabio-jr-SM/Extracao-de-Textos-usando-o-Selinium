@@ -69,7 +69,7 @@ driver.quit()
 tcc_directory = 'tccs/'
 
 # Caminho para o arquivo de saída final em texto
-output_txt_path = 'todos_tccs.txt'
+output_txt_path = 'tccs_extraidos/todos_tccs.txt'
 
 # Cria uma lista para armazenar o texto de cada TCC
 tcc_texts = []
