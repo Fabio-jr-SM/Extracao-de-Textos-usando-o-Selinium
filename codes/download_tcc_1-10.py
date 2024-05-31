@@ -71,9 +71,23 @@ def extrairTexto(tcc_directory, output_txt_path):
     print(f'O arquivo de texto combinado foi salvo em: {output_txt_path}')
 
 def main():
-    
     destination_folder = r"C:\Users\fabbh\Documents\GitHub\selinium-site-turismo-tcc\tccs"
-    tcc_xpaths = [f'//*[@id="post-173"]/div/div[1]/div/div/div/figure/table/tbody/tr[{i}]/td[2]/a' for i in range(1,22)]
+
+    """
+    
+    TCCS do 01 ao 10
+
+    TCC 01
+    //*[@id="post-173"]/div/table/tbody/tr[3]/td[2]/h6/a
+
+    TCC 10
+    //*[@id="post-173"]/div/table/tbody/tr[12]/td[2]/h6/a
+
+    
+    """
+
+
+    tcc_xpaths = [f'//*[@id="post-173"]/div/table/tbody/tr[{i}]/td[2]/h6/a' for i in range(3, 13)]
 
     download_tccs(tcc_xpaths, destination_folder)
 
