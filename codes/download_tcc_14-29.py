@@ -91,9 +91,9 @@ def main():
 
     download_tccs(tcc_xpaths, destination_folder)
 
-    tcc_directory = 'tccs/'
+    '''tcc_directory = 'tccs/'
     output_txt_path = 'tccs_extraidos/todos_tccs.txt'
-    extrairTexto(tcc_directory, output_txt_path)
+    extrairTexto(tcc_directory, output_txt_path)'''
 
 if __name__ == "__main__":
     main()
